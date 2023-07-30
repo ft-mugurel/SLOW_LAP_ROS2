@@ -1,0 +1,13 @@
+{
+    "ros.distro": "galactic",
+    "python.autoComplete.extraPaths": [
+        "/home/mtu/ytu_racing_ws/install/slam/lib/python3.8/site-packages",
+        "/home/mtu/Formula-Student-Driverless-Simulator/ros2/install/fs_msgs/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/mtu/ytu_racing_ws/install/slam/lib/python3.8/site-packages",
+        "/home/mtu/Formula-Student-Driverless-Simulator/ros2/install/fs_msgs/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
+}

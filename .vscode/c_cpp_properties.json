@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/mtu/Formula-Student-Driverless-Simulator/ros2/install/fsds_ros2_bridge/include/**",
+        "/home/mtu/Formula-Student-Driverless-Simulator/ros2/install/fs_msgs/include/**",
+        "/opt/ros/galactic/include/**",
+        "/home/mtu/ytu_racing_ws/src/slam_cpp/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
