@@ -7,16 +7,17 @@ from sensor_msgs.msg import PointCloud2
 class MinimalSubscriber(Node):
 
     def __init__(self):
-        super().__init__('minimal_subscriber')
-        self.subscription = self.create_subscription(
-            String,
-            'topic',
-            self.listener_callback,
-            10)
+        super().__init__('LidarSub')
+        self.subscription = self.create_subscription(PointCloud2, '/lidar/Lidar1', self.listener_callback, 10)
         self.subscription
 
     def listener_callback(self, msg):
-        self.get_logger().info('I heard: "%s"' % msg.data)
+        self.get_logger().info('I point: "%d"' % msg.point_step)
+        self.get_logger().info('I row: "%d"' % msg.row_step)
+        self.get_logger().info('I height: "%d"' % msg.height)
+        self.get_logger().info('I width: "%d"' % msg.width)
+        self.get_logger().info('I heard: "%d"' % msg.data[0])
+        self.get_logger().info('I lenght "%d"' % len(msg.data))
 
 def main(args=None):
     rclpy.init(args=args)

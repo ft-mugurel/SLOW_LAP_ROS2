@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'floorit = slam.control_command_pub_test:main',
+                'floorit = slow_lap.control_command_pub_test:main',
+                'getlidar = slow_lap.lidar_sub:main',
+                'slowlap = slow_lap.slow_lap:main',
             ]
     },
 )
