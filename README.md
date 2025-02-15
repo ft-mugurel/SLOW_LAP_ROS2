@@ -1,6 +1,7 @@
 # Autonomous Race Car Project
 
 ![Demo Video](./video/demo.mp4)
+[Watch the demo video here](https://ft-mugurel.github.io/SLOW_LAP_ROS2/video/demo.mp4)
 
 This project is a simple autonomous race car developed for the **Formula Student Driverless Simulator**. The car uses **LIDAR** as its primary sensor for perception and navigation. It is built on **ROS2 (Robot Operating System 2)** for communication, control, and decision-making.
 
