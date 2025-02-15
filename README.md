@@ -1,6 +1,6 @@
 # Autonomous Race Car Project
 
-<iframe width="560" height="315" src="https://youtu.be/SyEMax4qKbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Demo Video](https://img.youtube.com/vi/SyEMax4qKbs/0.jpg)](https://www.youtube.com/watch?v=SyEMax4qKbs)
 
 This project is a simple autonomous race car developed for the **Formula Student Driverless Simulator**. The car uses **LIDAR** as its primary sensor for perception and navigation. It is built on **ROS2 (Robot Operating System 2)** for communication, control, and decision-making.
 
